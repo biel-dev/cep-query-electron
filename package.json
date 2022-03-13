@@ -4,11 +4,31 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "electron": "^17.1.2"
+  },
+  "homepage": "https://biel-dev.github.io/cep-query-electron",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "react-scripts": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

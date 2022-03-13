@@ -17,7 +17,7 @@ const createWindow = () => {
 
     })
 
-    win.loadFile('index.html')
+    win.loadFile('public/index.html')
 }
 
 Menu.setApplicationMenu(null);
