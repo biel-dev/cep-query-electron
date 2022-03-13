@@ -14,8 +14,7 @@
   "devDependencies": {
     "electron": "^17.1.2"
   },
-  "homepage": "https://biel-dev.github.io/cep-query-electron",
-  "dependencies": {
+    "dependencies": {
     "gh-pages": "^3.2.3",
     "react-scripts": "^5.0.0"
   },
