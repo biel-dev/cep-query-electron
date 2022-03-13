@@ -1,0 +1,110 @@
+body {
+    --primary-purple:rgb(129, 45, 238) ;
+    --hover-purple: rgb(111, 0, 255) ;
+    --background-color: rgb(39, 39, 39);
+    background-color: var(--background-color);
+}
+
+.h1 {
+color: '#rgb(152, 81, 245)'
+}
+
+.principal-text {
+    font-family: Heavitas;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+
+    transition-duration: 0.3s;
+}
+
+.principal-text:hover {
+    font-size: 38px;
+}
+
+.input-text {
+    font-size: 24px;
+    font-family: Montserrat Regular;
+    color: #fff;
+}
+
+.insert-input {
+    font-family: 'Poppins';
+    border: none ;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    outline: none;
+    background-color: rgb(121, 121, 121);
+    color: #fff;
+}
+
+.insert-input:hover {
+    border-color: rgb(139, 139, 139);
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#botao {
+    text-align: center;
+}
+
+.button {
+    font-family: 'Poppins';
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px 50px;
+    background-color: var(--primary-purple);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+    background-color: var(--hover-purple);
+    padding: 10px 20px;
+}
+
+#result {
+    margin-top: 25px;
+    font-family: roboto;
+    color: white;
+    line-height: 25px
+}
+
+ul.menu{
+    text-align: center;
+    text-decoration: none;
+}
+ul.menu li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+strong {
+    color: var(--primary-purple);
+}
