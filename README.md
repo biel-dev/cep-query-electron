@@ -8,7 +8,7 @@ git clone https://github.com/biel-dev/cep-query-electron.git
 ```
 #### Em seguida, baixe as dependências
 ```
-cd cep-query-electron
+cd cep-query-electron-master && npm install
 ```
 #### Então, basta abrir a aplicação a partir de uma janela, usando:
 ```
